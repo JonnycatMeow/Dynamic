@@ -2,7 +2,7 @@ import Fastify from 'fastify';
 import fastifyStatic from '@fastify/static';
 import fastifyCompress from '@fastify/compress';
 import { createBareServer } from '@tomphttp/bare-server-node';
-import { createServer } from 'http';
+import { createServer } from 'node:http';
 import chalk from 'chalk';
 import open from 'open';
 import { existsSync } from 'fs';
